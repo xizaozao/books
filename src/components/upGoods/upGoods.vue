@@ -113,26 +113,26 @@
             }else{
                 this.checkTost()
                 return ;
-            }
+            } 
         },
         data(){
             return{
-                goodsName:'',
-                goodsPrice:'',
-                goodsNum:'',
-                goodsdetails:'',
-                goodsNew:'',
-                goodsTime:'',
-                goodsType:'',
-                currentDate: new Date(),
+                goodsName:this.$route.params.goods && this.$route.params.goods.goodsName || '',
+                goodsPrice:this.$route.params.goods && this.$route.params.goods.goodsPrice || '',
+                goodsNum:this.$route.params.goods && this.$route.params.goods.goodsNum || '',
+                goodsdetails:this.$route.params.goods && this.$route.params.goods.goodsDetails || '',
+                goodsNew:this.$route.params.goods && this.$route.params.goods.goodsNew || '',
+                goodsTime:this.$route.params.goods && this.$route.params.goods.goodsTime || '',
+                goodsType:this.$route.params.goods && this.$route.params.goods.goodsType || '',
+                currentDate:new Date(),
                 // minDate: new Date(),
-                maxDate: new Date(),
-                firstImg:[], //展示图片
+                maxDate:new Date(),
+                firstImg:this.$route.params.goods && this.$route.params.goods.imgadd || [], //展示图片
                 iconShow:false, //长按后才显示
                 IsLoading:false,
                 show:false,
                 selected:'',
-                errGoodsName:''
+                errGoodsName: ''
             }
         },
         methods:{

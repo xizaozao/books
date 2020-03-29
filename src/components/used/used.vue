@@ -17,6 +17,7 @@
                     </div>
                     <div class="btn" v-if="isShow">
                         <van-button size="small" round class="btnPosition" @click="explation(goods.goodsId)">下架</van-button>
+                        <van-button size="small" round class="btnPosition" @click="edit(goods)">修改</van-button>
                     </div>
                 </li>
         </ul>
@@ -94,6 +95,9 @@
           }
         },
         methods:{
+            edit(goods){
+                this.$router.push({name:'upGoods',params:{goods}})
+            },
           goPost(){
               //是否填写个人信息
               this.$axios.post('/api/users/findWx',{

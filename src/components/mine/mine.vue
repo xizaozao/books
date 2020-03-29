@@ -156,7 +156,8 @@
         width: 100%;
         line-height: 1.2rem;
         font-size: 1.2rem;
-        margin: 0 auto;
+        text-align: center;
+        margin: 1rem auto;
         font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
     }
     .teml{
