@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: ghostwhite;
+    height: 100%;
+   /*background: rgb(255,251,240);   !*乳白色*!*/
+}
+.van-cell{
+    margin-top: 10px;
+}
+.van-popup--right{
+    width: 100%;
+    height: 50%;
+}
+.van-popup--left{
+    width: 100%;
+}
+.van-hairline--top-bottom{
+    z-index:5 !important;
+}
+.swiper-container{
+    margin-top: 50px;
+    width: 100%;
+    height: 25rem;
+}
+.swiper-slide{
+    width: 70% !important;
+    background-color: rgb(255,255,255);
+    box-shadow:3px 3px 3px 3px rgb(216,216,216) ;
+}
+.van-submit-bar__bar{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    background-color: #ffffff;
+}
+.van-swipe{
+    width: 100%;
+    height: 18rem;
+    background-color: #00B7FF;
+}
+.van-goods-action{
+    margin-bottom: 50px;
+}
+.van-picker .van-datetime-picker{
+    width: 10rem;
+}
+.van-search{
+    background-color: #f0f0f0 !important;
+}
