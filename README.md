@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # xianyu
 # 项目介绍
 ## 使用vue作为前端渲染框架，后端主要以node的koa2框架起服务加上mongodb作为数据库
@@ -28,3 +29,10 @@ node ./bin/www
 ```
 
 
+=======
+# books
+
+#安装依赖 yarn 
+#前端  master  yarn serve
+#后端  master  yarn start
+>>>>>>> 198d206b5d12eb794928b5839ee56f206528a488
