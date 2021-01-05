@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "cnpm": "^6.0.0",
     "debug": "^2.6.3",
     "i": "^0.3.6",
