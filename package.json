@@ -12,7 +12,7 @@
     "crypto-js": "^3.1.9-1",
     "lodash": "^4.17.11",
     "mint-ui": "^2.2.13",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "vant": "^1.6.10",
     "vue": "^2.6.6",
     "vue-awesome-swiper": "^3.1.3",
